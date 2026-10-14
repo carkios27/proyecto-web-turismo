@@ -53,3 +53,16 @@ h1 span { color:#e9c98e; }
 footer { display:flex;justify-content:space-between;align-items:center;gap:20px;background:#173629;color:white;padding:28px max(28px,calc((100% - 1064px)/2)); }
 footer p { color:rgba(255,255,255,.65);font-size:.82rem;margin:0; }
 @media (max-width:700px) { .navbar { padding:22px; }.nav-links { gap:14px; }.nav-links a { font-size:.8rem; }.hero-content { margin-top:55px;padding:0 22px; }.hero { min-height:600px; }.section { padding:60px 22px; }.intro { grid-template-columns:1fr;gap:32px; }.intro-image { min-height:300px; }.cards { grid-template-columns:1fr; }.hero-note { left:22px;right:auto; }.facts { gap:28px; }footer { align-items:flex-start;flex-direction:column;padding:25px 22px; } }
+/* Mejora visual del botón principal */
+.btn-mejora {
+  background: linear-gradient(135deg, #f39c12, #e67e22);
+  color: #ffffff;
+  border: 2px solid #ffd27f;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-mejora:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
